@@ -832,3 +832,13 @@ margin-bottom: 24px;
     color: #4D5AE5;
     text-decoration: underline;
 }
+
+
+.visually-hidden:checked+.modal-input-title .privacy-policy {
+    background-color: var(--ocean, #404bbf);
+    border: none;
+}
+
+.visually-hidden:checked+.modal-input-title .privacy-policy svg {
+    fill: var(--cloud, #f4f4fd);
+}
