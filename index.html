@@ -429,15 +429,16 @@
 
 
 <form class="email-form">
-    <label class="footer-form-lbl" for="user_email">
+    <label class="footer-form-lbl" for="user-email"></label>
        
 <input 
 type="email" 
 name="user-email"
+id="user-email"
  placeholder="E-mail" 
  class="input-email-footer">
 
-</label>
+
 <button type="submit" class="email-button">Subscribe 
     <svg class="icons-email" width="24" height="24"> 
         <use href="./images/icons.svg#icon-icon-send"></use>
@@ -470,24 +471,24 @@ name="user-email"
                 <form class="modal-form" action="modal_window">
         
                     <div class="modal-input-box">
-                        <label class="modal-input-title" for="modal-username">
-                            Name
+                        <label class="modal-input-title" for="user-name">Name</label>
+                            
                             <div class="input-box">
-                                <input type="text" name="modal_username" id="modal-username" class="modal-input">
+                                <input type="text" name="user-name" id="user-name" class="modal-input">
         
                                 <svg class="modal-icons-input" width="18" height="24">
                                     <use href="./images/icons.svg#icon-person-black">
                                     </use>
                                 </svg>
                             </div>
-                        </label>
+                        
                     </div>
         
         
                     <div class="modal-input-box">
         
                         <label for="modal-userphone" class="modal-input-title">
-                            Phone
+                            Phone</label>
                             <div class="input-box">
                                 <input type="tel" name="modal_phone" id="modal-userphone" class="modal-input">
                                 <svg class="modal-icons-input" width="18" height="24">
@@ -495,12 +496,12 @@ name="user-email"
                                     </use>
                                 </svg>
                             </div>
-                        </label>
+                        
                     </div>
         
                     <div class="modal-input-box">
                         <label for="modal-useremail" class="modal-input-title">
-                            Email
+                            Email </label>
         
                             <div class="input-box">
         
@@ -510,22 +511,22 @@ name="user-email"
                                     </use>
                                 </svg>
                             </div>
-                        </label>
+                       
                     </div>
         
                     <div class="modal-textarea-box">
         
                         <label for="modal-comment" class="modal-input-title">
-                            Comment
+                            Comment </label>
                             <textarea class="comment-area" name="user-comment" rows="5" id="modal-comment"
                                 placeholder="Text input"></textarea>
-                        </label>
+                       
                     </div>
         
                     <div class="modal-checkbox">
                         <input class="modal-check-inp" type="checkbox" name="user-privacy" id="user-accept" value="accept" />
         
-                        <label class="modal-input-title" for="user-accept">
+                        <label class="modal-input-title" for="user-accept"></label>
         
                             <span class="privacy-policy">
                                 <svg class="checkbox-icon" width="10" height="8">
@@ -535,7 +536,7 @@ name="user-email"
                             I accept the terms and conditions of the
         
                             <a class="modal-link" href="#">Privacy Policy</a>
-                        </label>
+                        
                     </div>
                     <button class="service-button" type="submit">Send</button>
         
