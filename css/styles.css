@@ -835,8 +835,5 @@ margin-bottom: 24px;
 .visually-hidden:checked + .modal-input-title .privacy-policy {
     background-color: #404bbf;
     border: none;
-}
-
-.visually-hidden:checked + .modal-input-title .privacy-policy svg {
     fill: #f4f4fd;
 }
