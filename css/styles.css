@@ -661,23 +661,13 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border: none;
 }
 
-.modal-icons-close:hover {
+.modal-close-btn:hover .modal-icons-close {
         fill: #ffffff;
-    }
-
-.modal-icons-close:focus
-{fill: #ffffff;}
-
-.modal-close-btn:hover {
-        background-color: #404bbf;
         border: none;
     }
 
-.modal-close-btn:focus
-{
-    background-color: #404bbf;
-    border: none;
-}
+
+
 
 .modal-text {
     display: block;
